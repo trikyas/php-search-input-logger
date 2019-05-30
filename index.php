@@ -18,44 +18,7 @@ if(isset($_POST['submit'])) {
   <head>
     <meta charset="utf-8">
     <title></title>
-    <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-size: 16px;
-    }
-    h1, h3 {
-      text-align: center;
-    }
-    form {
-      width: 50vh;
-      height: 10vh;
-      margin: 0 auto;
-    }
-    input[type="text"],
-    input[type="text"]:focus{
-      outline: none;
-      width: 160px;
-    }
-    input[type="submit"] {
-      width: 50px;
-      height: 20px;
-      border: none;
-      border-radius: 0;
-      margin-top: -1vh;
-      background-color: lightblue;
-    }
-    input[type="submit"]:hover {
-      background-color: lightgreen;
-    }
-    /*  */
-
-    main {
-      height: 80vh;
-      width: 100%;
-      background: #000;
-    }
-  </style>
+    <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
   <script src="index.js"></script>
