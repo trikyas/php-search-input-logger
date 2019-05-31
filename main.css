@@ -1,15 +1,15 @@
 body {
+  font-size: 16px;
   margin: 0;
   padding: 0;
-  font-size: 16px;
 }
 h1, h3 {
   text-align: center;
 }
 form {
-  width: 50vh;
   height: 10vh;
   margin: 0 auto;
+  width: 50vh;
 }
 input[type="text"],
 input[type="text"]:focus{
@@ -17,20 +17,20 @@ input[type="text"]:focus{
   width: 160px;
 }
 input[type="submit"] {
-  width: 50px;
-  height: 20px;
+  background-color: lightblue;
   border: none;
   border-radius: 0;
+  height: 20px;
   margin-top: -1vh;
-  background-color: lightblue;
+  width: 50px;
 }
 input[type="submit"]:hover {
   background-color: lightgreen;
 }
 /*  */
-
 main {
+  /* background: linear-gradient(160deg, #fff 50%, #000 50%); */
   height: 80vh;
   width: 100%;
-  background: linear-gradient(160deg, #fff 50%, #000 50%);
 }
+/*  */

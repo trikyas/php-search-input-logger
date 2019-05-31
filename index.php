@@ -30,11 +30,6 @@ if(isset($_POST['submit'])) {
       <input name="search" type="text" size="10" value="→ "/>
       <input name="submit" type="submit" value="go" />
     </form>
-    <main>
-
-      <!-- START test -->
-      <!-- <div class="s"></div> -->
-      <!-- END test -->
-    </main>
+    <main></main>
   </body>
 </html>
