@@ -32,5 +32,5 @@ input[type="submit"]:hover {
 main {
   height: 80vh;
   width: 100%;
-  background: #000;
+  background: linear-gradient(160deg, #fff 50%, #000 50%);
 }

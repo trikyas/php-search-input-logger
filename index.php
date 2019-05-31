@@ -22,7 +22,7 @@ if(isset($_POST['submit'])) {
   </head>
   <body>
   <script src="index.js"></script>
-  <h1>What's really on your mind.</h1>
+  <h1>What's really going on here?</h1>
   <!-- Below was for testing ONLY! ~TRIKYAS -->
   <?php echo "<h3>" . $lol . "</h3>"; ?>
     <form method="post" action="index.php">
@@ -32,8 +32,6 @@ if(isset($_POST['submit'])) {
     </form>
     <main>
       <div class="s"></div>
-
-
     </main>
   </body>
 </html>
